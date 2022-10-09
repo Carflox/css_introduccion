@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  color: rgb(51, 31, 6);
+}
+
+.article__subtitle {
+  color: white;
+  padding: 0.1rem 3.4rem;
+  background-color: blue;
+  display: inline-block;
+}
+
+.article__subtitle:hover {
+  background-color: blue;
+  color: #f5c;
+}
+
+.article__paragraph {
+  color: white;
+}
+
+.main__paragraph {
+  color: #f5c;
+}
+
+.main__paragraph-font span {
+  color: black;
+}
+
+h2 {
+  background-color: brown;
+  color: white;
+  padding: 1rem;
+  width: 60px;
+  text-align: center;
+  border: 1px solid brown;
+}
+
+h2:hover {
+  background-color: white;
+  color: brown;
+  cursor: pointer;
+}
+
+h3 {
+  background-color: #452aa5;
+  color: white;
+  padding: 1rem;
+  width: 60px;
+  text-align: center;
+  border: 1px solid #452aa5;
+}
+
+h3:active {
+  background-color: white;
+  color: #452aa5;
+  cursor: pointer;
+}
+
+input:focus {
+  border: 10px solid red;
+}
+
+input:checked + span {
+  color: green;
+}
+
+input:required {
+  border: 2px solid blue;
+}
+
+input:disabled {
+  background: #000;
+}
+
+p:first-child {
+  background-color: aquamarine;
+}
+
+p:last-child {
+  background-color: darkolivegreen;
+}
+
+p:nth-child(3) {
+  background-color: blue;
+}
+
+p:nth-child(2n-1) {
+  background-color: black;
+}
+
+p:nth-last-child(3) {
+  background-color: red;
+}
+
+span:first-of-type {
+  background-color: aqua;
+}
+
+p:nth-of-type(5) {
+  background-color: beige;
+}
+
+.parrafo-color {
+  background-color: black;
+}
+
+p {
+  color: blue;
+}
+
+p::before {
+  content: "Hola";
+}
+
+p::after {
+  content: "Chao";
+}
+
+p::first-letter {
+  background-color: black;
+  color: wheat;
+}
+
+input::placeholder {
+  color: blue;
+  font-size: 0.5rem;
+}
+
+h2 {
+  letter-spacing: 0.5rem;
+  word-spacing: 1rem;
+  text-transform: uppercase;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
